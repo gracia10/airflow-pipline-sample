@@ -109,6 +109,4 @@ Werkzeug==2.2.2
 wrapt==1.14.1
 WTForms==3.0.1
 zipp==3.10.0
-# FIXME azure-servicebus 의존성 수전
-# ModuleNotFoundError: No module named 'azure.servicebus'
-azure-servicebus==7.8.1
+# azure-servicebus==7.8.1
