@@ -1,5 +1,5 @@
 # 이미지 생성시 사용할 이미지
-FROM apache/airflow:2.4.2-python3.8
+FROM apache/airflow:2.4.2-python3.7
 
 # 이미지 빌드, 컨테이너 실행 모두 사용가능한 환경변수
 ENV AIRFLOW__KUBERNETES__FS_GROUP=50000
